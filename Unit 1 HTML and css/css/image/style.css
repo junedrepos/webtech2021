@@ -1,0 +1,10 @@
+.logo{
+    width:100px;
+    height:100px;
+    border: 20px  solid transparent;
+    padding: 10px 20px;
+     float: right;
+     /* border-image-source:url('border.png');
+    border-image-width: 30; */
+    border-image: url('border.png') 30 round;
+    }

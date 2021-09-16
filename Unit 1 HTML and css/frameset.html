@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Frameset</title></head>
+    <frameset rows="10%, 80%, 10%">
+        <frame src="framesets/header.html" name="header"/>
+        <!-- nesting -->
+        <frameset cols="20%, 80%">
+            <frame src="framesets/sidebar.html" name="sidebar"/>
+            <frame src="framesets/mainbody.html" name="main_body"/>
+            <noframes>
+                <body>Sorry your browser does not support frameset</body>
+            </noframes>
+        </frameset>
+        <frame src="framesets/footer.html" name="footer"/>
+
+        <noframes>
+            <body>Sorry your browser does not support frameset</body>
+        </noframes>
+    </frameset>
+    <!-- <frameset cols="20%, 80%">
+        <frame src="framesets/sidebar.html" name="sidebar"/>
+        <frame src="framesets/mainbody.html" name="main body"/>
+        <noframes>
+            <body>Sorry your browser does not support frameset</body>
+        </noframes>
+    </frameset> -->
+</html>

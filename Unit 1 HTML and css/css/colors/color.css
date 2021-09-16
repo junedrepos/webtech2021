@@ -1,0 +1,19 @@
+body{
+    /* background-color: blue; */
+}
+.h1{
+    color:blue;
+    color: rgb(0, 0, 255);
+    color: rgba();
+}
+
+.p1{
+    color:crimson;/*                 50% opaqueness*/
+    background-color:rgba(255,255,0,1)
+}
+
+.p2{
+    color: green;
+    /* background-color: #00ff00; */
+    border: 2px dashed #abc;/*#aabbcc*/
+}

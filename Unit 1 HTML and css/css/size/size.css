@@ -1,0 +1,19 @@
+/* default font-size of body in most of the browsers is 16px 18px*/
+
+.px{
+    background-color: gray;
+    width:500px;
+}
+.pic-child1{
+        background-color: red;
+        width:100px;
+}
+
+.box{
+    background-color:lightgoldenrodyellow;
+    width:1000px;
+}
+.pic-child2{
+    background-color: green;
+    width:50%;
+}

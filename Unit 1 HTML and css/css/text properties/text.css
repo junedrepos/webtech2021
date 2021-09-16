@@ -1,0 +1,13 @@
+.p1{
+    /* letter-spacing: 4px; */
+    /* text-indent:40px; */
+    text-align: right;
+    /* left right center justify */
+}
+.p2{
+    /* word-spacing: 10px;
+    text-decoration: line-through; */
+    /* text-transform: full-width; */
+    font-size: 40px;
+    text-shadow: 2px 5px 10px green;
+}

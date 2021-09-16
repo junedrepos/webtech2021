@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Field set</title>
+</head>
+<body>
+    <form action="thankyou.html">
+        <fieldset>
+            <legend>Personal detail</legend>
+            <label>
+                First Name: <input type="text" name="fname" placeholder="First name"/><br/>
+            </label>
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname" placeholder="Last name" value="Kumar"/>
+            
+            <br/>
+            <label for="add" >Salary:</label>
+            <input  type="text" name="Salary" placeholder="Salary" id="add"/><br/>
+            Class: <input type="text" name="class" /><br/>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Address</legend>
+            Country:
+            <select name="country" >
+                <option value="Nepal">Nepal</option>
+                <option value="India">India</option>
+                <option value ="China" selected ="selected">China</option>
+                <option value="Russia">Russia</option>
+                <option value = "Srilanka">Srilanka</option>
+                <option value="Japan">Japan</option>
+                <option value="Canada">Canada</option>
+            </select><br/>
+           Full Address: <input type="text" name="address"/> <br/>
+        </fieldset>
+        <input type="submit" value="Submit"/>
+    </form>
+</body>
+</html>

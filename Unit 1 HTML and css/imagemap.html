@@ -1,0 +1,20 @@
+<html>
+    <head><title>Image map</title></head>
+    <body>
+        <img src="mappedimage.png" width="1010" height="500" usemap="#nicpage"/>
+        <map name="nicpage">
+                                   <!--    topleft, bottomright-->
+                                    <!-- x1,y1, x2,y2  rectangle  -->
+            <area shape="rect" coords="100,35,1000,140" href="linkpages/home.html" target="_blank">
+                                       <!-- center, radius-->
+                                       <!--  x,y,r -->                             
+            <area shape="circle" coords="500,300,80" href="linkpages/contact.html" target="_blank">
+                                    <!--ctrl+space =suggestion-->
+                                    <!-- x1,y1,x2,y2, ..... xn,yn-->
+                                    <!-- go in clock wise direction-->
+            <area shape="poly" coords="960,250,1030,375,900,375" href="linkpages/about.html" target="_blank">
+            
+        </map>
+        
+    </body>
+</html>

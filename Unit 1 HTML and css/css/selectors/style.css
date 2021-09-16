@@ -1,0 +1,90 @@
+/*
+h1{
+    color:blue;
+}
+.p1{
+    color:green;
+}
+#b1p1{
+    color:red;
+}
+*{
+    color:cyan;
+}
+h1,p{
+    background-color: gainsboro;
+}
+.box{
+    border: black solid 5px;
+    margin-bottom:20px;
+}
+
+.boxchild{
+    border:mediumblue dotted 10px;
+    margin-left:50px;
+}
+
+div.box p{
+    color:greenyellow;
+}
+
+div.box>p{
+    color:indigo;
+}
+
+h2#b1h2 + p{
+    color:mediumseagreen;
+}
+h2#b1h2 ~ p{
+    color:salmon;
+}
+
+input[type="text"]{
+    color:black;
+}
+*/
+a:hover{
+    color:violet;
+}
+:visited{
+    color:black;
+}
+div.boxchild :first-child{
+    color:darkviolet;
+}
+div.boxchild :last-child{
+    color:green;
+}
+
+div.messenger :nth-child(odd){
+    background-color:firebrick;
+}
+div.messenger :nth-child(even){
+    background-color:indigo;
+}
+
+.sent{
+    text-align:right;
+}
+
+.received{
+    text-align:left;
+}
+
+form :focus{
+    background-color:lightcoral;
+}
+form :required{
+    background-color: lightskyblue;
+}
+form :optional{
+    background-color: mediumslateblue;
+}
+
+p::first-letter{
+    color:red;
+}
+
+p::first-line{
+    background-color: grey;
+}

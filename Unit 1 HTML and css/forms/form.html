@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms with various inputs</title>
+</head>
+<body>
+    <pre>
+        <code>
+            &lt;!doctype html&gt;
+            &lt;html lang="en-US"&gt;
+            &lt;head&gt;
+                &lt;meta charset="utf-8"&gt;                
+                &lt;meta name="generator" content="JSFiddle"&gt;
+                &lt;/body&gt;
+                &lt;meta name="description" content="Displaying your source code on web page."&gt;
+                &lt;meta name="author" content="Anna Medvedeva"&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;Displaying your source code on web page&lt;/h1&gt;
+                &lt;p1&gt;Do you read, write and speak code? Learn how to share your skills!&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;
+        </code>
+    </pre>
+    <form action="thankyou.html" method="PUT">
+        <!-- wrapping using label -->
+        <label>
+            First Name: <input type="text" name="fname" placeholder="First name"/><br/>
+        </label>
+        <label for="lname">Last Name:</label>
+        <input type="text" name="lname" id="lname" placeholder="Last name" value="Kumar"/>
+        
+        <br/>
+        <label for="add" >Address:</label>
+        <input  type="text" name="address" placeholder="Address" id="add"/><br/>
+        Class: <input type="text" name="class" /><br/>
+        <input type="submit" value="Click me" />
+    </form>
+</body>
+</html>
